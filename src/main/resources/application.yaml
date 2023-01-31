@@ -4,9 +4,9 @@ spring:
   flyway:
     enabled: true
   datasource:
-    username: ${db_username:postgres}
-    url: ${db_url:jdbc:postgresql://localhost:3307/interview}
-    password: ${db_password:1234}
+    url: ${db_url}
+    username: ${db_username}
+    password: ${db_password}
   jpa:
     hibernate:
       ddl-auto: none
