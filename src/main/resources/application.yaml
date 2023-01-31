@@ -1,0 +1,12 @@
+server:
+  port: 8070
+spring:
+  flyway:
+    enabled: true
+  datasource:
+    username: ${db_username:postgres}
+    url: ${db_url:jdbc:postgresql://localhost:3307/interview}
+    password: ${db_password:1234}
+  jpa:
+    hibernate:
+      ddl-auto: none
