@@ -47,7 +47,7 @@ public class ProductService {
             productFromDb.setName(productUpdateDto.getName());
         }
         if (productUpdateDto.getPrice() != null) {
-            productFromDb.getPrice().setPrice(productUpdateDto.getPrice());
+            productFromDb.getPrice().setValue(productUpdateDto.getPrice());
         }
         if (productUpdateDto.getBarcode() != null) {
             productFromDb.setBarcode(productUpdateDto.getBarcode());

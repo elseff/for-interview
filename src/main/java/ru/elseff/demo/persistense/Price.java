@@ -26,10 +26,10 @@ public class Price {
             nullable = false, unique = true)
     private Product product;
 
-    @Column(name = "price", nullable = false)
-    private Long price;
+    @Column(name = "value", nullable = false)
+    private Long value;
 
-    public Price(Long price) {
-        this.price = price;
+    public Price(Long value) {
+        this.value = value;
     }
 }
