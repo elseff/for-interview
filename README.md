@@ -5,7 +5,7 @@
 <hr/>
 
 ### For launch
-You need to create the database and specify to specify the url, user and password database variables
+You need to create the database and specify the url, user and password database variables
 in <b> Run/Debug Configurations </b> or in the `application.yaml`
 
 ```
